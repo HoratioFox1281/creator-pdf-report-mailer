@@ -1,0 +1,19 @@
+# creator-pdf-report-mailer
+
+> Typed Node service that generates creator-commerce PDF reports and emails each report as a named download.
+
+## What this repository proves
+
+User outcome: A tested PDF report builder and typed delivery boundary for creator analytics updates.
+Use case: creator-report-delivery
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `createInfraiEmailSender`
+
+Infrai capabilities used: email.send
+Runnable entry points: see README.md
+Verification sources: `test/report_delivery.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

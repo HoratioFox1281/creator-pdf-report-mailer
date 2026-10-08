@@ -1,0 +1,21 @@
+{
+  "name": "creator-pdf-report-mailer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/report_delivery_service.ts",
+    "demo": "tsx src/send_sample_report.ts",
+    "test": "tsx --test test/report_delivery.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
